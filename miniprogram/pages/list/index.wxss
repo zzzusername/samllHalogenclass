@@ -1,0 +1,24 @@
+.swiperCont{
+  width: 100%;
+  height: 450px;
+}
+.slide-image {
+  width: 100%;
+  height: 450px;
+}
+.navLi{
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.navLi li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 14px;
+}
+.hd{
+  
+}

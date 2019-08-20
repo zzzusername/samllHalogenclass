@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  circular="true" class="swiperCont">
+  <block wx:for="{{imgUrls}}">
+  <swiper-item>
+    <image src="{{item}}" class="slide-image" width="355" height="200" />
+  </swiper-item>
+  </block>
+  </swiper>
+  <view class="navLi">
+    <li>传承经典</li>
+    <li>价格优惠</li>
+    <li>诚信服务</li>
+    <li>免费配送</li>
+  </view>
+  <!--    特色黑鸭：  神仙鸡： 美味牛肉：  素菜：  美味猪肉：-->
+  <view   class='classify'>
+    <view class="hd">特色黑鸦：</view>
+    <view class="bd">
+      <view class="item">
+        <view class="pic">图片</view>
+        <vide class="des">描述／价格</vide>
+      </view>
+    </view>
+  </view>
+</view>
